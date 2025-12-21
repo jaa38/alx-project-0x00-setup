@@ -1,5 +1,9 @@
 import { Geist, Geist_Mono } from 'next/font/google';
 
+export interface PillProps {
+  title: string;
+}
+
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
