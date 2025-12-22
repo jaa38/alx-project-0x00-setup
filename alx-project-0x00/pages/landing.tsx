@@ -8,23 +8,19 @@ const Landing: React.FC = () => {
 
       {/* SMALL BUTTONS */}
       <div className='flex gap-3 mb-4'>
-        <Button title='Small' className='text-sm rounded-sm' />
-        <Button title='Small' className='text-sm rounded-md' />
-        <Button title='Small' className='text-sm rounded-full' />
+        <Button title='Small' styles='text-sm rounded-sm' />
+        <Button title='Small' styles='text-sm rounded-md' />
+        <Button title='Small' styles='text-sm rounded-full' />
       </div>
 
       {/* MEDIUM BUTTONS */}
       <div className='flex gap-3 mb-4'>
-        <Button title='Medium' className='text-base rounded-sm' />
-        <Button title='Medium' className='text-base rounded-md' />
-        <Button title='Medium' className='text-base rounded-full' />
+        <Button title='Medium' styles='text-base rounded-lg' />
       </div>
 
       {/* LARGE BUTTONS */}
       <div className='flex gap-3 mb-6'>
-        <Button title='Large' className='text-lg px-6 py-3 rounded-sm' />
-        <Button title='Large' className='text-lg px-6 py-3 rounded-md' />
-        <Button title='Large' className='text-lg px-6 py-3 rounded-full' />
+        <Button title='Large' styles='text-lg px-6 py-3 rounded-full' />
       </div>
 
       {/* CARD COMPONENT */}
