@@ -33,6 +33,10 @@ const Landing: React.FC = () => {
           title='Medium Rounded Full'
           styles='text-base px-4 py-2 rounded-full'
         />
+        <Button
+          title='Medium Rounded LG'
+          styles='text-base px-4 py-2 rounded-lg'
+        />
 
         {/* Large buttons */}
         <Button
